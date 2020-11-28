@@ -1,0 +1,411 @@
+/* HTML */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Body */
+
+
+body {
+    background-image: url(../img/background-sm-body.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* Navbar */
+
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand {
+    font-family: 'viga', sans-serif;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* Jumbotron */
+
+
+.jumbotron {
+    background-image: url(../img/background-programmer-1.jpg);
+    background-size: cover;
+    height: 540px;
+    position: relative;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .rounded {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 100% !important;
+    margin-top: 50px;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+/* Info */
+
+
+
+.info {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -100px;
+    background-color: white;
+    padding: 30px;
+}
+
+.info img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info p {
+    font-size: 14px;
+    color: #acacac;
+    margin-top: -5px;
+    font-weight: 200;
+}
+
+/* Project Space */
+
+
+.project-title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'viga', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.project-space-1 {
+    margin-top: 60px;
+}
+
+.project-space-1 img {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+.project-space-1 h3 {
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-space-1 p {
+    font-size: 18px;
+    color: #acacac;
+    font-weight: 200;
+    margin: 30px 0;
+}
+
+/* About Me */
+
+
+.about-title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'viga', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.about-wrapper {
+    position: relative;
+}
+
+.about-space .text-about {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: -35px;
+    right: 0;
+    left: 0;
+    border: 1px solid rgba(0, 0, 0, 0.528);
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.about-icons {
+    display: flex;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgba(17, 152, 225, 0.789);
+}
+
+.card {
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7);
+    margin: 5px 0;
+    justify-self: flex-start;
+}
+
+.card-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+
+.card-img-top {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+/* Skills Me */
+
+
+.skills-title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'viga', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.skills-icons {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+    margin: 50px 0;
+    display: flex;
+}
+
+.skills i {
+    text-align: center;
+}
+
+.skills-text {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Gallery */
+
+
+.gallery-title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'viga', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.gallery-wrapper {
+    background-color: #333333;
+    margin: 40px;
+    padding: 10px;
+}
+
+/* Footer */
+
+
+.footer-wrapper {
+    background-color: rgb(56, 56, 56);
+    height: 300px;
+}
+
+.content-footer {
+    height: 200px;
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+}
+
+.content-footer i {
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(83, 137, 255);
+    border-radius: 20px;
+    color: rgb(56, 56, 56);
+}
+
+.content-footer p {
+    margin: 50px;
+    font-size: 18px;
+    font-family: 'viga';
+    text-transform: uppercase;
+}
+
+.copyright-footer {
+    height: 100px;
+    background-color: rgb(83, 137, 255);
+    text-align: center;
+}
+
+.copyright-footer h6 {
+    font-family: 'viga';
+    font-size: 28px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.copyright-footer p {
+    font-size: 12px;
+}
+
+
+/* Utility */
+
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* DESKTOP VERSION */
+
+
+@media (min-width: 992px) {
+
+    body {
+        background-image: url(../img/background-body-1.jpg);
+    }
+
+    .navbar-brand, .nav-link {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        color: white !important;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid rgb(63, 73, 80);
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .jumbotron .rounded {
+        width: 200px;
+        height: 200px;
+        margin-top: 80px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+        margin-top: 30px;
+    }
+
+    .about-space .text-about {
+        background-color: rgba(255, 255, 255, 0);
+        position: relative;
+        border-radius: 0;
+        border: none;
+    }
+
+    .about-icons {
+        margin-top: 0;
+        padding: 50px;
+        text-align: center;
+        justify-content: space-evenly;
+        background-color: rgba(17, 152, 225, 0.789);
+    }
+
+    .skills-icons {
+        font-size: 100px;
+    }
+
+    .skills-text {
+        font-size: 32px;
+    }
+
+    .copyright-footer p {
+        font-size: 18px;
+    }
+
+    .content-footer i {
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        padding: 12.5px;
+        background-color: rgb(83, 137, 255);
+        border-radius: 25px;
+        color: rgb(56, 56, 56);
+    }
+
+    .content-footer {
+        height: 225px;
+        background-color: rgb(56, 56, 56);
+        text-align: center;
+    }
+}
